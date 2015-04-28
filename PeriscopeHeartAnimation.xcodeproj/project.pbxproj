@@ -1,0 +1,433 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DB9935A91AEF2FFB00F77DB4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DB9935A81AEF2FFB00F77DB4 /* main.m */; };
+		DB9935AC1AEF2FFB00F77DB4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DB9935AB1AEF2FFB00F77DB4 /* AppDelegate.m */; };
+		DB9935AF1AEF2FFB00F77DB4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DB9935AE1AEF2FFB00F77DB4 /* ViewController.m */; };
+		DB9935B21AEF2FFB00F77DB4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB9935B01AEF2FFB00F77DB4 /* Main.storyboard */; };
+		DB9935B41AEF2FFB00F77DB4 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB9935B31AEF2FFB00F77DB4 /* Images.xcassets */; };
+		DB9935B71AEF2FFB00F77DB4 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = DB9935B51AEF2FFB00F77DB4 /* LaunchScreen.xib */; };
+		DB9935C31AEF2FFB00F77DB4 /* PeriscopeHeartAnimationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DB9935C21AEF2FFB00F77DB4 /* PeriscopeHeartAnimationTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DB9935BD1AEF2FFB00F77DB4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DB99359B1AEF2FFB00F77DB4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DB9935A21AEF2FFB00F77DB4;
+			remoteInfo = PeriscopeHeartAnimation;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DB9935A31AEF2FFB00F77DB4 /* PeriscopeHeartAnimation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PeriscopeHeartAnimation.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB9935A71AEF2FFB00F77DB4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DB9935A81AEF2FFB00F77DB4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DB9935AA1AEF2FFB00F77DB4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DB9935AB1AEF2FFB00F77DB4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DB9935AD1AEF2FFB00F77DB4 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		DB9935AE1AEF2FFB00F77DB4 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		DB9935B11AEF2FFB00F77DB4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DB9935B31AEF2FFB00F77DB4 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		DB9935B61AEF2FFB00F77DB4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		DB9935BC1AEF2FFB00F77DB4 /* PeriscopeHeartAnimationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PeriscopeHeartAnimationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB9935C11AEF2FFB00F77DB4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DB9935C21AEF2FFB00F77DB4 /* PeriscopeHeartAnimationTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PeriscopeHeartAnimationTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DB9935A01AEF2FFB00F77DB4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB9935B91AEF2FFB00F77DB4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DB99359A1AEF2FFB00F77DB4 = {
+			isa = PBXGroup;
+			children = (
+				DB9935A51AEF2FFB00F77DB4 /* PeriscopeHeartAnimation */,
+				DB9935BF1AEF2FFB00F77DB4 /* PeriscopeHeartAnimationTests */,
+				DB9935A41AEF2FFB00F77DB4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DB9935A41AEF2FFB00F77DB4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DB9935A31AEF2FFB00F77DB4 /* PeriscopeHeartAnimation.app */,
+				DB9935BC1AEF2FFB00F77DB4 /* PeriscopeHeartAnimationTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DB9935A51AEF2FFB00F77DB4 /* PeriscopeHeartAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				DB9935AA1AEF2FFB00F77DB4 /* AppDelegate.h */,
+				DB9935AB1AEF2FFB00F77DB4 /* AppDelegate.m */,
+				DB9935AD1AEF2FFB00F77DB4 /* ViewController.h */,
+				DB9935AE1AEF2FFB00F77DB4 /* ViewController.m */,
+				DB9935B01AEF2FFB00F77DB4 /* Main.storyboard */,
+				DB9935B31AEF2FFB00F77DB4 /* Images.xcassets */,
+				DB9935B51AEF2FFB00F77DB4 /* LaunchScreen.xib */,
+				DB9935A61AEF2FFB00F77DB4 /* Supporting Files */,
+			);
+			path = PeriscopeHeartAnimation;
+			sourceTree = "<group>";
+		};
+		DB9935A61AEF2FFB00F77DB4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DB9935A71AEF2FFB00F77DB4 /* Info.plist */,
+				DB9935A81AEF2FFB00F77DB4 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DB9935BF1AEF2FFB00F77DB4 /* PeriscopeHeartAnimationTests */ = {
+			isa = PBXGroup;
+			children = (
+				DB9935C21AEF2FFB00F77DB4 /* PeriscopeHeartAnimationTests.m */,
+				DB9935C01AEF2FFB00F77DB4 /* Supporting Files */,
+			);
+			path = PeriscopeHeartAnimationTests;
+			sourceTree = "<group>";
+		};
+		DB9935C01AEF2FFB00F77DB4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DB9935C11AEF2FFB00F77DB4 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DB9935A21AEF2FFB00F77DB4 /* PeriscopeHeartAnimation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DB9935C61AEF2FFB00F77DB4 /* Build configuration list for PBXNativeTarget "PeriscopeHeartAnimation" */;
+			buildPhases = (
+				DB99359F1AEF2FFB00F77DB4 /* Sources */,
+				DB9935A01AEF2FFB00F77DB4 /* Frameworks */,
+				DB9935A11AEF2FFB00F77DB4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PeriscopeHeartAnimation;
+			productName = PeriscopeHeartAnimation;
+			productReference = DB9935A31AEF2FFB00F77DB4 /* PeriscopeHeartAnimation.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DB9935BB1AEF2FFB00F77DB4 /* PeriscopeHeartAnimationTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DB9935C91AEF2FFB00F77DB4 /* Build configuration list for PBXNativeTarget "PeriscopeHeartAnimationTests" */;
+			buildPhases = (
+				DB9935B81AEF2FFB00F77DB4 /* Sources */,
+				DB9935B91AEF2FFB00F77DB4 /* Frameworks */,
+				DB9935BA1AEF2FFB00F77DB4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DB9935BE1AEF2FFB00F77DB4 /* PBXTargetDependency */,
+			);
+			name = PeriscopeHeartAnimationTests;
+			productName = PeriscopeHeartAnimationTests;
+			productReference = DB9935BC1AEF2FFB00F77DB4 /* PeriscopeHeartAnimationTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DB99359B1AEF2FFB00F77DB4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = ldj;
+				TargetAttributes = {
+					DB9935A21AEF2FFB00F77DB4 = {
+						CreatedOnToolsVersion = 6.3.1;
+					};
+					DB9935BB1AEF2FFB00F77DB4 = {
+						CreatedOnToolsVersion = 6.3.1;
+						TestTargetID = DB9935A21AEF2FFB00F77DB4;
+					};
+				};
+			};
+			buildConfigurationList = DB99359E1AEF2FFB00F77DB4 /* Build configuration list for PBXProject "PeriscopeHeartAnimation" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DB99359A1AEF2FFB00F77DB4;
+			productRefGroup = DB9935A41AEF2FFB00F77DB4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DB9935A21AEF2FFB00F77DB4 /* PeriscopeHeartAnimation */,
+				DB9935BB1AEF2FFB00F77DB4 /* PeriscopeHeartAnimationTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DB9935A11AEF2FFB00F77DB4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB9935B21AEF2FFB00F77DB4 /* Main.storyboard in Resources */,
+				DB9935B71AEF2FFB00F77DB4 /* LaunchScreen.xib in Resources */,
+				DB9935B41AEF2FFB00F77DB4 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB9935BA1AEF2FFB00F77DB4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DB99359F1AEF2FFB00F77DB4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB9935AF1AEF2FFB00F77DB4 /* ViewController.m in Sources */,
+				DB9935AC1AEF2FFB00F77DB4 /* AppDelegate.m in Sources */,
+				DB9935A91AEF2FFB00F77DB4 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB9935B81AEF2FFB00F77DB4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB9935C31AEF2FFB00F77DB4 /* PeriscopeHeartAnimationTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DB9935BE1AEF2FFB00F77DB4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DB9935A21AEF2FFB00F77DB4 /* PeriscopeHeartAnimation */;
+			targetProxy = DB9935BD1AEF2FFB00F77DB4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DB9935B01AEF2FFB00F77DB4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DB9935B11AEF2FFB00F77DB4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DB9935B51AEF2FFB00F77DB4 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DB9935B61AEF2FFB00F77DB4 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DB9935C41AEF2FFB00F77DB4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DB9935C51AEF2FFB00F77DB4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DB9935C71AEF2FFB00F77DB4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PeriscopeHeartAnimation/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DB9935C81AEF2FFB00F77DB4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PeriscopeHeartAnimation/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		DB9935CA1AEF2FFB00F77DB4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = PeriscopeHeartAnimationTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PeriscopeHeartAnimation.app/PeriscopeHeartAnimation";
+			};
+			name = Debug;
+		};
+		DB9935CB1AEF2FFB00F77DB4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = PeriscopeHeartAnimationTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PeriscopeHeartAnimation.app/PeriscopeHeartAnimation";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DB99359E1AEF2FFB00F77DB4 /* Build configuration list for PBXProject "PeriscopeHeartAnimation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB9935C41AEF2FFB00F77DB4 /* Debug */,
+				DB9935C51AEF2FFB00F77DB4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DB9935C61AEF2FFB00F77DB4 /* Build configuration list for PBXNativeTarget "PeriscopeHeartAnimation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB9935C71AEF2FFB00F77DB4 /* Debug */,
+				DB9935C81AEF2FFB00F77DB4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DB9935C91AEF2FFB00F77DB4 /* Build configuration list for PBXNativeTarget "PeriscopeHeartAnimationTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB9935CA1AEF2FFB00F77DB4 /* Debug */,
+				DB9935CB1AEF2FFB00F77DB4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DB99359B1AEF2FFB00F77DB4 /* Project object */;
+}
