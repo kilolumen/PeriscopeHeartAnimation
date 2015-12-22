@@ -29,29 +29,26 @@
 }
 
 - (void)addHeart {
-    UIImageView *heartImageView = [[UIImageView alloc] initWithFrame:CGRectMake(kScreenWidth / 2.0 - 14, kScreenHeight - 100, 28, 26)];
-    
-    heartImageView.image = [UIImage imageNamed:@"heart"];
-    heartImageView.transform = CGAffineTransformMakeScale(0, 0);
-    [self.view addSubview:heartImageView];
-    
-    CGFloat duration = 5 + (arc4random() % 5 - 2);
-    [UIView animateWithDuration:0.3 animations:^{
-        heartImageView.transform = CGAffineTransformMakeScale(1, 1);
-        heartImageView.transform = CGAffineTransformMakeRotation(-0.01 * (arc4random() % 20));
+
+    CALayer *heartLayer=[[CALayer alloc]init];
+    [heartLayer setFrame:CGRectMake(kScreenWidth / 2.0 - 14, kScreenHeight - 100, 28, 26)];
+    heartLayer.contents=(__bridge id _Nullable)([[UIImage imageNamed:@"heart"] CGImage]);
+    [self.view.layer addSublayer:heartLayer];
+    __weak CALayer *weakHeartLayer=heartLayer;
+    [CATransaction begin];
+    [CATransaction setCompletionBlock:^(){
+        [weakHeartLayer removeFromSuperlayer];
     }];
-    [UIView animateWithDuration:duration animations:^{
-        heartImageView.alpha = 0;
-    }];
-    CAKeyframeAnimation *animation = [self createAnimation:heartImageView.frame];
-    animation.duration = duration;
-    [heartImageView.layer addAnimation:animation forKey:@"position"];
-    dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)((duration + 0.5) * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
-        [heartImageView removeFromSuperview];
-    });
+
+    CAAnimationGroup *animation = [self createAnimation:heartLayer.frame];
+    animation.duration = 5 + (arc4random() % 5 - 2);
+    animation.fillMode = kCAFillModeForwards;
+    animation.removedOnCompletion = NO;
+    [heartLayer addAnimation:animation forKey:nil];
+    [CATransaction commit];
 }
 
-- (CAKeyframeAnimation *)createAnimation:(CGRect)frame {
+- (CAAnimationGroup *)createAnimation:(CGRect)frame {
     CAKeyframeAnimation *animation = [CAKeyframeAnimation animationWithKeyPath:@"position"];
     CGMutablePathRef path = CGPathCreateMutable();
     
@@ -78,7 +75,17 @@
     animation.path = path;
     animation.calculationMode = kCAAnimationCubicPaced;
     CGPathRelease(path);
-    return animation;
+    
+    //透明渐变
+    CABasicAnimation *opacityAnimation = [CABasicAnimation animationWithKeyPath:@"opacity"];
+    opacityAnimation.fromValue = @0.95f;
+    opacityAnimation.toValue  = @0.0f;
+    opacityAnimation.timingFunction=[CAMediaTimingFunction functionWithName:kCAMediaTimingFunctionEaseIn];
+    
+    
+    CAAnimationGroup *animGroup = [CAAnimationGroup animation];
+    animGroup.animations = @[animation, opacityAnimation];
+    return animGroup;
 }
 
 @end
